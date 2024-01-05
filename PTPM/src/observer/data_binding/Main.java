@@ -12,7 +12,7 @@ public class Main {
         dataAccess.add(new MonHoc("002", "Pháp luật đại cương", 1));
         dataAccess.add(new MonHoc("003", "Toán rời rạc", 3));
         dataAccess.add(new MonHoc("004", "Xác xuất thống kê", 3));
-        
+
         dataAccess.remove("002");
         dataAccess.remove("004");
     }

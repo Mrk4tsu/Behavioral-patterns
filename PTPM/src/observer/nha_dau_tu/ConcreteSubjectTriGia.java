@@ -3,7 +3,7 @@ package observer.nha_dau_tu;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ConcreteSubject extends Subject {
+public class ConcreteSubjectTriGia extends SubjectTriGia {
     List<IObserver> observers = new ArrayList<>();
 
     @Override

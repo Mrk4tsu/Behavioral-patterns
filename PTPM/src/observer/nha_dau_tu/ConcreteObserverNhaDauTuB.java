@@ -1,9 +1,9 @@
 package observer.nha_dau_tu;
 
-public class ConcreteObserverB implements IObserver{
-    Subject subject;
+public class ConcreteObserverNhaDauTuB implements IObserver{
+    SubjectTriGia subject;
 
-    public ConcreteObserverB(Subject subject) {
+    public ConcreteObserverNhaDauTuB(SubjectTriGia subject) {
         this.subject = subject;
         this.subject.attach(this);
     }

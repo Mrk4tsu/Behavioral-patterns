@@ -2,9 +2,9 @@ package observer.nha_dau_tu;
 
 public class Main {
     public static void main(String[] args) {
-        ConcreteSubject subject = new ConcreteSubject();
-        ConcreteObserverA a = new ConcreteObserverA(subject);
-        ConcreteObserverB b = new ConcreteObserverB(subject);
+        ConcreteSubjectTriGia subject = new ConcreteSubjectTriGia();
+        ConcreteObserverNhaDauTuA a = new ConcreteObserverNhaDauTuA(subject);
+        ConcreteObserverNhaDauTuB b = new ConcreteObserverNhaDauTuB(subject);
 
         System.out.println("Part 1:");
         subject.mNotify(6);
