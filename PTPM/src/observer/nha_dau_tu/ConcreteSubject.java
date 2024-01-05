@@ -1,9 +1,10 @@
 package observer.nha_dau_tu;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ConcreteSubject extends Subject {
-    List<IObserver> observers;
+    List<IObserver> observers = new ArrayList<>();
 
     @Override
     void attach(IObserver observer) {
@@ -18,9 +19,9 @@ public class ConcreteSubject extends Subject {
     }
 
     @Override
-    void mNotify() {
+    void mNotify(float data) {
         for(IObserver o : observers){
-            o.update();
+            o.update(data);
         }
     }
 }
