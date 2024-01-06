@@ -1,7 +1,7 @@
 package decorator.flutter;
 
 public class WidgetDecorator implements Widget{
-    Widget childern;
+    public Widget childern;
 
     public WidgetDecorator(Widget childern) {
         this.childern = childern;
